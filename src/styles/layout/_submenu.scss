@@ -1,0 +1,53 @@
+.submenu {
+  width: $submenu-width;
+  height: 100%;
+  background-color: $background-paper;
+  border-right: 1px solid $border-light;
+  position: relative;
+
+  &__header {
+    padding: $spacing-md $spacing-lg;
+    border-bottom: 1px solid $border-light;
+
+    &-title {
+      font-weight: $font-weight-bold;
+      color: $text-primary;
+    }
+  }
+
+  &__list {
+    padding: 0;
+    overflow-y: auto;
+    height: calc(100% - 57px); // Header height
+
+    @include custom-scrollbar();
+  }
+
+  &__item {
+    &-button {
+      padding: $spacing-sm $spacing-lg;
+      width: 100%;
+      text-align: left;
+      background-color: transparent;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+      }
+
+      &.active {
+        background-color: $primary-light;
+
+        .submenu__item-text {
+          color: $primary-color;
+          font-weight: $font-weight-medium;
+        }
+      }
+    }
+
+    &-text {
+      font-size: 0.9rem;
+      color: $text-primary;
+    }
+  }
+}

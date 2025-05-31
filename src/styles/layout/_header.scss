@@ -1,0 +1,52 @@
+.header {
+  height: $header-height;
+  background-color: $background-paper;
+  border-bottom: 1px solid $border-light;
+  padding: 0 $spacing-lg;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  @include flex-between;
+
+  &__left {
+    @include flex(row, flex-start, center);
+
+    &-menu-button {
+      margin-right: $spacing-md;
+      color: $text-primary;
+    }
+
+    &-title {
+      color: $primary-color;
+      letter-spacing: 0.5px;
+      font-weight: $font-weight-medium;
+    }
+  }
+
+  &__right {
+    @include flex(row, flex-end, center);
+    gap: $spacing-sm;
+  }
+
+  &__avatar {
+    background-color: $warning-color;
+    color: #fff;
+    font-weight: $font-weight-medium;
+    width: 35px;
+    height: 35px;
+  }
+
+  &__user {
+    &-name {
+      font-size: 0.8rem;
+      font-weight: $font-weight-medium;
+      color: $text-primary;
+    }
+
+    &-dept {
+      font-size: 0.7rem;
+      color: $text-secondary;
+    }
+  }
+}

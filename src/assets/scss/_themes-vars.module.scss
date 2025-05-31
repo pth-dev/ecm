@@ -1,0 +1,137 @@
+// Color palette for the application
+// Light Theme Variables
+$paper: #ffffff;
+$background: #f5f6fa;
+
+// Typography
+$primaryFont: '"Roboto", "Helvetica", "Arial", sans-serif';
+
+// Primary
+$primaryLight: #e3f2fd;
+$primaryMain: #167775;
+$primaryDark: #115e5c;
+$primary200: #b1e7e5;
+$primary800: #0f4c4a;
+
+// Secondary
+$secondaryLight: #fff2d8;
+$secondaryMain: #ff9e18;
+$secondaryDark: #e58c00;
+$secondary200: #ffce85;
+$secondary800: #b36e00;
+
+// Success Colors
+$successLight: #dff2e5;
+$successMain: #28a745;
+$successDark: #1e7e34;
+
+// Error Colors
+$errorLight: #fbe7e8;
+$errorMain: #dc3545;
+$errorDark: #bd2130;
+
+// Warning Colors
+$warningLight: #fff8e1;
+$warningMain: #ffc107;
+$warningDark: #d39e00;
+
+// Info Colors
+$infoLight: #e0f4f6;
+$infoMain: #17a2b8;
+$infoLDark: #117a8b;
+
+// Grey Colors
+$grey50: #fafafa;
+$grey100: #f5f5f5;
+$grey200: #eeeeee;
+$grey300: #e0e0e0;
+$grey500: #9e9e9e;
+$grey600: #757575;
+$grey700: #616161;
+$grey900: #212121;
+
+// Text Colors
+$textPrimary: #2a3548;
+$textSecondary: #5a6a85;
+$textDark: #1e2129;
+$textHint: #a9b3c5;
+
+// Dark Theme Variables
+$darkBackground: #1a223f;
+$darkPaper: #111936;
+$darkTextPrimary: #eef2f6;
+$darkTextSecondary: #8492c4;
+$darkPrimaryMain: #25938f;
+$darkPrimaryDark: #1d7572;
+$darkSecondaryMain: #ffa726;
+$darkSecondaryDark: #ff8a00;
+
+// Borders
+$borderLight: #e2e8f0;
+$borderMain: #cfd8e3;
+$borderDark: #b0bec5;
+
+// Make these variables available to JavaScript
+:export {
+  // Light Theme
+  paper: $paper;
+  background: $background;
+  primaryFont: $primaryFont;
+
+  primaryLight: $primaryLight;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary200: $primary200;
+  primary800: $primary800;
+
+  secondaryLight: $secondaryLight;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary200: $secondary200;
+  secondary800: $secondary800;
+
+  successLight: $successLight;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  infoLight: $infoLight;
+  infoMain: $infoMain;
+  infoLDark: $infoLDark;
+
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  textPrimary: $textPrimary;
+  textSecondary: $textSecondary;
+  textDark: $textDark;
+  textHint: $textHint;
+
+  // Dark Theme
+  darkBackground: $darkBackground;
+  darkPaper: $darkPaper;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+
+  // Borders
+  borderLight: $borderLight;
+  borderMain: $borderMain;
+  borderDark: $borderDark;
+}
